@@ -1,0 +1,7 @@
+from subprocess import call
+call(["python", "YourAcutie.TXT"])
+
+import ctypes
+ctypes.windll.user32.MessageBoxW(3, "I WISH I KNEW", "I WISH I KNEW", 32)
+time.sleep(10)
+ctypes.windll.user32.MessageBoxW(0, "I wish i knew you wanted me!", "U wanted me", 16)
